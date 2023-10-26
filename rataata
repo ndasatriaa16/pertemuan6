@@ -1,0 +1,28 @@
+ import java.util.Scanner;
+ class ratarata {
+    public static void main(String[] args) {
+        Scanner input= new Scanner (System.in);
+
+        System.out.println("===Program rata rata nilai Mahasiswa===");
+
+        //  jumlah matkul
+        System.out.println("Masukkan jumlah matkul : 3");
+        
+
+        // matkul 1
+         System.out.print("Matkul 1 :");
+        int matkul1 = input.nextInt();
+
+         // matkul 2
+         System.out.print("Matkul 2 :");
+        int matkul2 = input.nextInt();
+
+         // matkul 3
+         System.out.print("Matkul 3 :");
+        int matkul3 = input.nextInt();
+
+        double rata2 = (matkul1 + matkul2 + matkul3)/3;
+        System.out.println("Rata rata nilai : " +rata2);
+
+    }
+}
