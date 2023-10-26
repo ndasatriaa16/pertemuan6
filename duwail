@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class duwail {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner (System.in);
+
+       
+       
+        
+
+        // do while
+        int j = 1 ; 
+        System.out.print("Kata kedua yang ingin anda ulangi:");
+        String kata2 = input.nextLine();
+        System.out.print("Berapa kali pengulangan :");
+        int m = input.nextInt();
+
+        do {
+            j++;
+            System.out.println(kata2);
+        }  while(j <= m);
+        
+
+       
+        
+    }
+}
