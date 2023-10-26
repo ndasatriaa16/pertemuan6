@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class perulangan {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner (System.in);
+
+        // while
+        int i = 1;
+        System.out.print("Kata pertama yang ingin anda ulangi:");
+        String kata1 = input.nextLine();
+        System.out.print("Berapa kali pengulangan :");
+        int n = input.nextInt();
+       
+        while(i <= n) {
+            System.out.println(kata1);
+            i++;
+        }
+
+       
+    }
+}
