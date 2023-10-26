@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class java  {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        // pengulangan for
+        System.out.print("Bilangan ganjil sampe? :");
+        int n = input.nextInt();
+
+        for(int i = 1;  i<=n; i+=2 ) {
+            System.out.println(i);
+        }
+        
+        // pengulangan while
+        System.out.print("Bilangan ganjil sampe? :");
+        int o = input.nextInt();
+        int j = 1;
+        while(j<=o) {
+            System.out.println(j);
+            j+=2;
+        }
+
+        // pengulangan do
+        System.out.print("Bilangan ganjil sampe? :");
+        int p = input.nextInt();
+        int k = 1;
+        do{
+            System.out.println(k);
+            k+=2;
+        }while (k<=p);
+
+    }
+}
